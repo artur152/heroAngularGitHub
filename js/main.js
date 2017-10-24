@@ -1,3 +1,6 @@
+"use strict"
+
+
 /** Toggle Class  **/
 function toggleClass(element, className) {
   if (!element || !className) {
