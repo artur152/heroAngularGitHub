@@ -15,13 +15,13 @@ document.addEventListener("DOMContentLoaded", function () {
         var park = {lat: 40.7024946, lng: -74.01672357937616};
         var ny_city = {lat: 40.72332237562719, lng: -73.9986886068238};
         var blueMarker = {
-            url: '/img/googleMap/markerclusterer/location-icon-blue-1-s.png',
+            url: 'img/googleMap/markerclusterer/location-icon-blue-1-s.png',
             size: new google.maps.Size(20, 32),
             origin: new google.maps.Point(0, 0),
             anchor: new google.maps.Point(10, 32)
         };
         var parkMarker = {
-            url: '/img/googleMap/markerclusterer/location-icon-green32.png',
+            url: 'img/googleMap/markerclusterer/location-icon-green32.png',
             size: new google.maps.Size(32, 32),
             origin: new google.maps.Point(0, 0),
             anchor: new google.maps.Point(16, 32)
@@ -126,7 +126,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 draggable: true
             });
         });
-        markerCluster = new MarkerClusterer(map, markers, {imagePath: '/img/googleMap/markerclusterer/m'});
+        markerCluster = new MarkerClusterer(map, markers, {imagePath: 'img/googleMap/markerclusterer/m'});
         /** Marker */
 
         /** HTML5 geolocation. */
